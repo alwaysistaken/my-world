@@ -1,0 +1,93 @@
+.movie-comp {
+    display: flex;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+}
+
+.movie-comp .left-part {
+    flex: 3;
+    margin-right: 35px;
+}
+
+.movie-comp .left-part .foot {
+    width: 100%;
+}
+
+.movie-comp .left-part h4 {
+    letter-spacing: 1.5px;
+}
+
+.movie-comp .right-part {
+    flex: 1;
+}
+
+.movie-comp .right-part .c-box-1 {
+    width: 75%;
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px 30px;
+}
+
+.movie-comp .right-part .c-box-1 h5 {
+    color: #007722;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+}
+
+.movie-comp .right-part .c-box-1 p {
+    margin-top: 25px;
+    color: #9f9b99;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    margin-bottom: 40px;
+}
+
+.movie-comp .right-part .c-box-1 ol {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.movie-comp .right-part .c-box-1 ol li {
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.movie-comp .right-part .c-box-1 ol li:hover {
+    color: #0c9733;
+}
+
+.movie-comp .right-part .c-box-2 {
+    margin-top: 30px;
+    width: 75%;
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.movie-comp .right-part .c-box-2 h5 {
+    color: #007722;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+}
+
+.movie-comp .right-part .c-box-2 ol {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.movie-comp .right-part .c-box-2 ol li {
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.movie-comp .right-part .c-box-2 ol li:hover {
+    color: #0c9733;
+}

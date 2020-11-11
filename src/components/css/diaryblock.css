@@ -1,0 +1,72 @@
+.diary-comp {
+    width: 98%;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.diary-comp:hover {
+    box-shadow: rgba(0, 0, 0, .1) 5px 5px 3px;
+}
+
+.diary-comp .left-image {
+    width: 220px;
+    height: 100%;
+    margin-left: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.diary-comp .left-image img {
+    max-width: 100%;
+    max-height: 90%;
+    transition: 0.3s;
+}
+
+.diary-comp .left-image .mouseover {
+    transform: scale(1.1);
+}
+
+.diary-comp .left-image img:hover {
+    transform: scale(1.1);
+}
+
+.diary-comp .right-part {
+    padding-right: 20px;
+}
+
+.diary-comp .right-part .mouseover {
+    color: #ff0000;
+}
+
+.diary-comp .right-part h3 {
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.diary-comp .right-part .p1 {
+    color: #666666;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.diary-comp .right-part .foot {
+    margin-top: 15px;
+}
+
+.diary-comp .right-part .foot span {
+    display: inline-block;
+    margin-right: 15px;
+    color: #535353;
+}
+
+.diary-comp .right-part .foot i {
+    display: inline-block;
+    margin-right: 5px;
+}

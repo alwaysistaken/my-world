@@ -1,0 +1,104 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    color: #666;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+
+/*css3实现照片墙的样式*/
+
+.container {
+    width: 100%;
+    height: 450px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+    padding: 10px 10px 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container img:hover {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: 5px 5px 5px #ddd;
+    -moz-box-shadow: 5px 5px 5px #ddd;
+    box-shadow: 5px 5px 5px #ddd;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.pic1 {
+    top: 0px;
+    left: 19vw;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    width: 18vw
+}
+
+.pic2 {
+    top: 0px;
+    left: 47vw;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    height: 18vw;
+}
+
+.pic3 {
+    width: 18vw;
+    bottom: -60px;
+    right: -1vw;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.pic4 {
+    bottom: -50px;
+    left: 17vw;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    width: 18vw;
+}
+
+.pic5 {
+    bottom: -2vw;
+    left: -2vw;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    width: 18vw;
+    transform: rotate(-10deg);
+}
+
+.pic6 {
+    top: 0;
+    left: -4vw;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+    width: 18vw;
+}

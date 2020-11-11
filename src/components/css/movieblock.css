@@ -1,0 +1,45 @@
+.movie-block {
+    display: flex;
+    background-color: white;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30px;
+}
+
+.movie-block .img-box {
+    margin-right: 30px;
+}
+
+.movie-block .img-box img {
+    width: 130px;
+}
+
+.movie-block .detail-box h4 {
+    font-size: 20px;
+}
+
+.movie-block .detail-box p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #666666;
+}
+
+.movie-block .click-target {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 1.8px solid #3a3939;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.movie-block .click-target .iconfont {
+    color: rgba(122, 9, 9, 0.993);
+    font-weight: 600;
+}
